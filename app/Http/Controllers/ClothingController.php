@@ -27,35 +27,16 @@ class ClothingController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Clothing  $clothing
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Clothing $clothing)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateClothingRequest  $request
-     * @param  \App\Models\Clothing  $clothing
-     * @return \Illuminate\Http\Response
-     */
     public function update(UpdateClothingRequest $request, Clothing $clothing)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Clothing  $clothing
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Clothing $clothing)
     {
         //
